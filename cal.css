@@ -47,6 +47,9 @@ button{
 button:hover{
     background-color: aliceblue;
 }
+.active-key{
+      background-color: skyblue;
+}
 button:active{
     background-color: hsla(239, 100%, 88%, 0.938);
 }
