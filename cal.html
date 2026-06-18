@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="cal.css">
+    <title>Document</title>
+</head>
+<body>
+    <div class="calculator">
+        <div class="display">
+        <input id="dis"  readonly></div>
+        <div class="btu">
+        <button class="co" onclick="cleardisplay()">AC</button>
+        <button class="co" onclick="appendtodispaly('%')">%</button>
+        <button class="co" onclick="gobackk()">⌫</button>
+      
+        <button class="co" onclick="appendtodispaly('/')">/</button>
+        <button onclick="appendtodispaly('7')">7</button>
+        <button onclick="appendtodispaly('8')">8</button>
+        <button onclick="appendtodispaly('9')">9</button>
+        <button class="co" onclick="appendtodispaly('*')">*</button>
+        <button onclick="appendtodispaly('4')">4</button>
+        <button onclick="appendtodispaly('5')">5</button>
+        <button onclick="appendtodispaly('6')">6</button>
+        <button class="co" onclick="appendtodispaly('-')">-</button>
+        <button onclick="appendtodispaly('1')">1</button>
+        <button onclick="appendtodispaly('2')">2</button>
+        <button onclick="appendtodispaly('3')">3</button>
+        <button class="co" onclick="appendtodispaly('+')">+</button>
+        <button onclick="appendtodispaly('00')">00</button>
+        <button onclick="appendtodispaly('0')">0</button>
+        <button onclick="appendtodispaly('.')">.</button>
+        <button class="co" onclick="calculate()">=</button></div>
+        <script src="cal.js"></script>
+    </div>
+</body>
+</html>
